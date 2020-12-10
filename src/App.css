@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+.contactFormDiv {
+  margin-top: 3%;
+}
+
 .contactForm {
   display: flex;
   flex-direction: column;

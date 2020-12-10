@@ -29,7 +29,7 @@ const ContactForm = () => {
 
         const templateParams = {
             from_name: contactInfo.email,
-            to_name: "j.delprincipe@riseorthosportspt.com",
+            to_name: "mlazzell17@gmail.com",
             message: contactInfo.description,
             user_firstName: contactInfo.firstName,
             user_lastName: contactInfo.lastName,
@@ -39,10 +39,10 @@ const ContactForm = () => {
         }
 
         emailjs.send(
-            "service_tayegea",
+            "service_pz1w5tq",
             "contact_form",
             templateParams,
-            "user_60GuzOhazPRVoCSAyYOmI")
+            "user_MO9TDXHMVlIbTHlTR1xTG")
             .then(res => {
                 console.log(res.text)
                 setShowAlert(true)
@@ -90,15 +90,15 @@ const ContactForm = () => {
                 </FormGroup>
                 <FormGroup className='contactInfo'>
                     <Input
+                    required
                      type="email"
                      name="email"
                      id="email"
-                     placeholder="Email Address"
+                     placeholder="Email Address*"
                      value={contactInfo.email}
                      onChange={handleChange}
                     />
                     <Input
-                     required
                      type="phone"
                      name="phone"
                      id="phone"
@@ -112,7 +112,7 @@ const ContactForm = () => {
                      type="textarea"
                      name="description"
                      id="description"
-                     placeholder="Describe your symptoms"
+                     placeholder="Comments"
                      value={contactInfo.description}
                      onChange={handleChange}
                     />
