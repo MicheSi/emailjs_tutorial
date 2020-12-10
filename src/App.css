@@ -1,4 +1,5 @@
 .App {
+  font-size: 62.5%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -7,6 +8,9 @@
 
 .contactFormDiv {
   margin-top: 3%;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 2% 3% 3%;
 }
 
 .contactForm {

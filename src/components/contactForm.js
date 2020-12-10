@@ -63,7 +63,7 @@ const ContactForm = () => {
         <div className='contactFormDiv'>
             <h2>Contact Us</h2>
             {showAlert &&
-                <Alert color='danger' isOpen={showAlert} toggle={onDismiss}>
+                <Alert color='success' isOpen={showAlert} toggle={onDismiss}>
                     Contact form successfully submitted
                 </Alert>
             }
