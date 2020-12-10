@@ -102,7 +102,7 @@ const ContactForm = () => {
                      type="phone"
                      name="phone"
                      id="phone"
-                     placeholder="Phone Number*"
+                     placeholder="Phone Number"
                      value={contactInfo.phone}
                      onChange={handleChange}
                     />
